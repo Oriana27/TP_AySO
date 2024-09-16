@@ -1,0 +1,162 @@
+ls
+ls -l
+ls la
+ls -la
+man ls
+pwd
+whoami
+echo "hola"
+echo HOME 
+echo $HOME
+ls
+cat README 
+cd repogit/
+ls
+git clone [200~https://github.com/Oriana27/Repo_Rondon.git~
+ls
+git clone https://github.com/Oriana27/Repo_Rondon.git
+cd Repo_Rondon/
+ls
+history
+history > Hitorial.txt
+ls
+cat Hitorial.txt 
+git status
+git add .
+git status
+git commit -m "Mi primer comit"
+git status 
+git config --global user.name "Oriana27"
+git commit -m
+git commit -m "Mi primer comit"
+git up
+git push
+Oriana2824
+git push
+git status
+exit
+pwd
+echo $HOME
+ls
+ls -l
+ls -la
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub
+cd ..
+ls -l
+cd repogit
+ls -l
+git clone https://github.com/Oriana27/Repo_Rondon.git
+cd Repo_Rondon
+ls -l
+echo "Hola" > hola.txt
+cat hola.txt 
+git status
+git add .
+git status
+git commit -m "Agrego hola"
+git push
+cat /etc/passwd
+cat /etc/passwd | grep vagrant
+cat /etc/passwd | grep -n bash
+cat /etc/passwd | grep -n nologin
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -nv nologin > archivo1.txt
+ls -l
+cat archivo1.txt 
+ls l-
+cat /etc/shadow
+sudo cat /etc/shadow
+lscpu
+cat archivo1.txt 
+sort archivo1.txt 
+history
+cat << termino > bloque_cat.txt
+hola
+como
+te
+va
+terminar
+termino
+
+cat << termino > bloque2_cat.txt
+ya
+casi
+salimos
+termino
+
+bc <<< 4+3
+vagrant halt
+cd ..
+dc ..
+cd ..
+vagrant halt
+cd ..
+vagrant halt
+cd home
+exit
+exit.
+exit
+ssh-keygen
+cat $home
+cd $HOME
+pwd
+ls -la
+cd .ssh/
+ls -la
+cat id_rsa.pub 
+git --version
+cd repogit
+cd
+cd repogit
+ls -la
+pwd
+ls -l
+git clone git@github.com:Oriana27/TP_AySO.git
+pwd
+ls -l
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL/etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i HOME_URL /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git status
+git add.
+git status
+git add .
+git commit -m "ADD: agregando 1er ejercicio sobre datos_usuario.txt"
+git status
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt 
+git add .
+git commig -m "feat: Añadiendo información de CPU"
+git commit -m "feat: Añadiendo información de CPU"
+grep -v nologin /etc/passwd > lista_ordenada
+sort lista_ordenada -t":" -k7
+grep -v nologin /etc/passwd | sort -t":" -k7  > lista_ordenada
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+apropos "dump traffic"
+apropos "dump traffic" > comando_dump_net
+echo apropos "dump traffic" >> comando_dump_net
+git add .
+git commit -m "ADD: Comando para Caturar y analizar el tráfico de red"
+cat <<FIN>> README.md 
+Alumno: Danellys Rondon 
+División: 115-2
+Turno: Mañana
+FIN
+
+git add .
+git commit -m "feat: Añadiendo nombre de alumno"
+history -a $HOME/.bash_history
+ls -la $HOME
+history -a $HOME/.bash_history
